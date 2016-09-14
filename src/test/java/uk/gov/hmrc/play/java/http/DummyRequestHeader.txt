@@ -42,3 +42,4 @@ class DummyRequestHeader extends RequestHeader {
 
   override def secure: Boolean = false
 }
+*/

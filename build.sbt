@@ -21,7 +21,8 @@ testOptions in Test += Tests.Argument(TestFrameworks.ScalaTest, "-o", "-u", "tar
 val plugins = SbtAutoBuildPlugin && SbtGitVersioning
 
 val compileDependencies = Seq(
-  "uk.gov.hmrc" %% "http-verbs" % "5.0.0"
+  "uk.gov.hmrc" %% "http-verbs" % "5.0.0",
+  "org.scala-lang.modules" %% "scala-java8-compat" % "0.3.0"
 )
 
 
